@@ -1,0 +1,65 @@
+body{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  
+  
+}
+
+.titulo-dash{
+  margin-left: 15px;
+}
+//======= * MENU * =======//
+menu {
+  background: #18C29C;
+  margin: 0;
+  padding: 0 20px 0 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  height: 100vh;
+}
+.foto_perfil{
+  margin: 0 12px 0 0;
+  height: 43px;
+  border-radius:10px
+}
+.container_id_user{
+  display: flex;
+  align-items: center;
+  margin: 0 0 12px 0;
+  padding: 0;
+
+  
+}
+.info_user{
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin-right: 12px;
+}
+.nome {
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+.funcao{
+  font-weight: 400;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+}
+.titulo_menu{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.categorias_menu p{
+
+}
