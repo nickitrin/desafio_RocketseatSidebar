@@ -1,10 +1,15 @@
-const menu = {
+const Menu = {
+
     Close(){
-        //document.querySelectorAll(".textos_menu").remove();
-        const texto = document.querySelectorAll(".textos_menu");
-        texto.forEach(function(innerText) {
-            innerText="";
-          });
+        let $elementos_textos_menu = document.querySelectorAll(".textos_menu")
+        
+        $elementos_textos_menu.map(elemento => {
+            console.log(elemento);
+            return 0
+        })
+       
+            
+        
     }
 
 

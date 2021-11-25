@@ -1,4 +1,3 @@
-@charset "UTF-8";
 body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -65,13 +64,13 @@ menu {
   height: 100vh;
 }
 
-.opções_menu {
+.opcoes_menu {
   padding: 3px 0 3px 0;
   margin: 0 0 17px 0;
   border-radius: 5px;
 }
 
-.opções_menu:hover {
+.opcoes_menu:hover {
   background-color: #8ED7C6;
   outline: 8px solid #8ED7C6;
 }
@@ -117,6 +116,9 @@ menu {
   display: inline-block;
   vertical-align: middle;
   font-size: 15px;
+}
+.textos_menu.desativado {
+  display: none;
 }
 
 .icone_menu {

@@ -21,7 +21,9 @@
     "url": "https://github.com/bernardoblasquez/gulp-dev/issues"
   },
   "homepage": "https://github.com/bernardoblasquez/gulp-dev#readme",
-  "dependencies": {},
+  "dependencies": {
+    "watch": "^1.0.2"
+  },
   "devDependencies": {
     "browser-sync": "^2.27.5",
     "gulp": "^4.0.2",
