@@ -57,7 +57,25 @@ menu {
 
 }
 
+.imagem_logo{
+
+  &.desativado{
+    display: none;
+
+  }
+
+}
+.textos_menu{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 15px;
+  
+  &.desativado{
+    display: none;
+  }
+}
 .opcoes_menu:hover{
+
   background-color: #8ED7C6;
   outline: 8px solid #8ED7C6;
 }
@@ -67,6 +85,9 @@ menu {
   margin: 0;
   padding: 0;
   margin-right: 12px;
+  &.desativado{
+    display: none;
+  }
 }
 .nome {
   font-weight: 400;
@@ -86,15 +107,7 @@ menu {
   margin-bottom: 30px;
   margin-top: 30px;
 }
-.textos_menu{
-  display: inline-block;
-  vertical-align: middle;
-  font-size: 15px;
-  
-  &.desativado{
-    display: none;
-  }
-}
+
 .icone_menu{
   display: inline-block;
   vertical-align: middle;

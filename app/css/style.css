@@ -70,6 +70,19 @@ menu {
   border-radius: 5px;
 }
 
+.imagem_logo.desativado {
+  display: none;
+}
+
+.textos_menu {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 15px;
+}
+.textos_menu.desativado {
+  display: none;
+}
+
 .opcoes_menu:hover {
   background-color: #8ED7C6;
   outline: 8px solid #8ED7C6;
@@ -85,6 +98,9 @@ menu {
   margin: 0;
   padding: 0;
   margin-right: 12px;
+}
+.info_user.desativado {
+  display: none;
 }
 
 .nome {
@@ -110,15 +126,6 @@ menu {
           justify-content: space-between;
   margin-bottom: 30px;
   margin-top: 30px;
-}
-
-.textos_menu {
-  display: inline-block;
-  vertical-align: middle;
-  font-size: 15px;
-}
-.textos_menu.desativado {
-  display: none;
 }
 
 .icone_menu {
