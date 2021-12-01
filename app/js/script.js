@@ -6,16 +6,11 @@ const Menu = {
 
         /*função que opera em cada elemento*/
         $elementos_textos_menu.forEach(item => {
+            
         /*método que adiciona ou remove alguma string das classes selecionadas*/
             item.classList.toggle('desativado')
 
         } )   
 
-        /*
-            .map();
-            .find();
-            .findIndex();
-            .forEach();
-        */
     }
 }
